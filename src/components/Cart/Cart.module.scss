@@ -1,0 +1,30 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: rem-calc(10);
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: rem-calc(400);
+    border: rem-calc(2) solid $black;
+    border-radius: rem-calc(4);
+    padding: rem-calc(4);
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: rem-calc(10);
+
+      button {
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

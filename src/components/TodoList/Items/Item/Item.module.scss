@@ -1,0 +1,9 @@
+.item {
+  font-size: rem-calc(16);
+  font-weight: 400;
+  border: 1px solid #e0e0e0;
+  padding: rem-calc(10);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
